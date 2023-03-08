@@ -14,7 +14,9 @@ const joinNames = (namesObj) => {
     const lastNameInArray = namesObj.pop().name;
     const stringOfNames = namesObj.map(({name}) => name).join(', ');
 
+if(namesObj.length > 1){
     return `${stringOfNames} & ${lastNameInArray}`;
+}
 };
 
 module.exports = joinNames;
