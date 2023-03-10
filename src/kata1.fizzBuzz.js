@@ -1,13 +1,17 @@
 const fizzBuzz = (number) => {
-  if (number % 3 === 0 && number % 5 !== 0) {
-    return "Fizz";
-  }
-  if (number % 5 === 0 && number % 3 !== 0) {
-    return "Buzz";
-  }
-  if (number % 5 === 0 && number % 3 === 0) {
+  const isDivisableBy3 = number % 3 === 0;
+  const isDivisibleBy5 = number % 5 === 0;
+
+  if (isDivisableBy3 && isDivisibleBy5) {
     return "FizzBuzz";
   }
+  if (isDivisableBy3) {
+    return "Fizz";
+  }
+  if (isDivisibleBy5) {
+    return "Buzz";
+  }
+
   return number;
 };
 
