@@ -2,7 +2,7 @@ const booleanToWord = (boolean) => {
   if (boolean === true) {
     return "Yes";
   }
-  return false;
+  return "No";
 };
 
 module.exports = booleanToWord;
