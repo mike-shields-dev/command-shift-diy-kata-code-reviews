@@ -13,7 +13,7 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(30)).toBe("FizzBuzz");
   });
 
-  xit("returns the number when it isn't a multiple of 3 or 5", () => {
+  it("returns the number when it isn't a multiple of 3 or 5", () => {
     expect(fizzBuzz(19)).toBe(19);
   });
 });
