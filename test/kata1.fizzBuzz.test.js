@@ -9,7 +9,7 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(25)).toBe("Buzz");
   });
 
-  xit("returns FizzBuzz when passed a multiple 3 and 5", () => {
+  it("returns FizzBuzz when passed a multiple 3 and 5", () => {
     expect(fizzBuzz(30)).toBe("FizzBuzz");
   });
 
