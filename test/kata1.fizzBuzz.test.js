@@ -2,7 +2,7 @@ const { fizzBuzz } = require("../src");
 
 describe("fizzBuzz", () => {
   it("returns Fizz when passed a multiple of 3", () => {
-    expect(fizzBuzz(9)).toBe("Fizz");
+    expect(fizzBuzz(-9)).toBe("Fizz");
   });
 
   it("returns Buzz when passed a multiple of 5", () => {
