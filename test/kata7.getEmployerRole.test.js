@@ -9,5 +9,6 @@ const employees = [
 describe("getEmployerRole", () => {
   test("returns the employee's role in the company", () => {
     expect(getEmployerRole("Orson", employees)).toEqual("Bartender");
+    expect(getEmployerRole("Sally", employees)).toEqual("Duty Manager");
   });
 });
