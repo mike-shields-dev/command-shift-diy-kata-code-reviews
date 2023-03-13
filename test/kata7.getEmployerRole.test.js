@@ -1,4 +1,5 @@
 const { getEmployerRole } = require("../src");
+
 const employees = [
   { name: "Sally", role: "Duty Manager" },
   { name: "Orson", role: "Bartender" },
